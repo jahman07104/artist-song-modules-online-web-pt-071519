@@ -9,8 +9,9 @@ include Paramable::InstanceMethods
 
   @@artists = []
 
-    def initialize
-    self.class.all << self
+    
+     def initialize
+    superself.class.all << self
     @songs = []
   end
 
