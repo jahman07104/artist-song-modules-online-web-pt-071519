@@ -11,7 +11,7 @@ include Paramable::InstanceMethods
 
     
      def initialize
-    superself.class.all << self
+    super
     @songs = []
   end
 
