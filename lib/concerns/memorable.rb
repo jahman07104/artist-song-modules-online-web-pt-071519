@@ -9,3 +9,4 @@
      self.all.count
   end
 end
+end
