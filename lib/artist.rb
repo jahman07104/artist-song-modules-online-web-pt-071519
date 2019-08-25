@@ -5,6 +5,7 @@ require 'pry'
   attr_reader :songs
   
 extend Memorable::ClassMethods
+include Memorable::ClassMethods
 
   @@artists = []
 
